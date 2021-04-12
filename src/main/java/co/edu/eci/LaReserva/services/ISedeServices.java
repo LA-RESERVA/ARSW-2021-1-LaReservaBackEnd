@@ -10,4 +10,6 @@ public interface ISedeServices {
     List<Sede> consultarSedes() throws LaReservaException;
     
     void eliminarSede(Integer id) throws LaReservaException;
+    
+    void actualizarSede(Sede sede) throws LaReservaException;
 }
