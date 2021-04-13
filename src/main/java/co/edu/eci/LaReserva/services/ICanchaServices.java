@@ -15,4 +15,6 @@ public interface ICanchaServices {
     void actualizarCancha(Cancha cancha) throws LaReservaException;
     
     List<Cancha> consultarCanchasPorSede(Integer idSede) throws LaReservaException;
+    
+    Cancha consultarCanchaPorId(Integer id) throws LaReservaException;
 }

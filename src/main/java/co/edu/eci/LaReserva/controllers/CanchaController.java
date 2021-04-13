@@ -14,9 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
 import co.edu.eci.LaReserva.entities.Cancha;
-
 import co.edu.eci.LaReserva.services.LaReservaException;
 import co.edu.eci.LaReserva.services.Impl.CanchaServices;
 
@@ -37,6 +35,15 @@ public class CanchaController {
         }
     }
 
+    @GetMapping
+    public ResponseEntity<?> consultarCanchaPorId(@RequestParam Integer id) {
+        try {
+            return new ResponseEntity<>(canchaServices.consultarCanchaPorId(id), HttpStatus.ACCEPTED);
+        } catch (LaReservaException ex) {
+            return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
+        }
+    }
+    
     @PostMapping(value = "/crear")
     public ResponseEntity<?> registrarCancha(@RequestBody Cancha cancha) {
         try {

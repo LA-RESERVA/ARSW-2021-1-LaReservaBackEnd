@@ -29,4 +29,12 @@ public class CanchaPersistence {
     public List<Cancha> canchasPorSede(Integer idSede) throws LaReservaPersistenceException {
         return canchaRepository.canchasPorSede(idSede);
     }
+    
+    public Cancha canchaPorId(Integer id) throws LaReservaPersistenceException {
+        Cancha cancha = canchaRepository.canchaPorId(id);
+        if(cancha == null){
+            throw new LaReservaPersistenceException("La cancha no existe.");
+        }
+        return canchaRepository.canchaPorId(id);
+    }
 }

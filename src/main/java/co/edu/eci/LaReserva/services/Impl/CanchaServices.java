@@ -57,4 +57,13 @@ public class CanchaServices implements ICanchaServices {
             throw new LaReservaException(ex.getMessage());
         }
     }
+
+    @Override
+    public Cancha consultarCanchaPorId(Integer id) throws LaReservaException {
+        try {
+            return canchaPersistence.canchaPorId(id);
+        } catch (LaReservaPersistenceException ex) {
+            throw new LaReservaException(ex.getMessage());
+        }
+    }
 }
