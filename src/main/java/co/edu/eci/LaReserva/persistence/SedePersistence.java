@@ -23,4 +23,12 @@ public class SedePersistence {
     public void eliminarSede(Integer id) throws LaReservaPersistenceException {
         sedeRepository.deleteById(id);
     }
+    
+    public Sede sedePorId(Integer id) throws LaReservaPersistenceException {
+        Sede sede = sedeRepository.sedePorId(id);
+        if (sede == null) {
+            throw new LaReservaPersistenceException("La sede no existe.");
+        }
+        return sedeRepository.sedePorId(id);
+    }
 }

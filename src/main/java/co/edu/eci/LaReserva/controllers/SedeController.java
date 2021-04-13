@@ -35,6 +35,15 @@ public class SedeController {
         }
     }
 
+    @GetMapping
+    public ResponseEntity<?> consultarSedePorId(@RequestParam Integer id) {
+        try {
+            return new ResponseEntity<>(sedeServices.consultarSedePorId(id), HttpStatus.ACCEPTED);
+        } catch (LaReservaException ex) {
+            return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
+        }
+    }
+    
     @PostMapping(value = "/crear")
     public ResponseEntity<?> registrarUsuario(@RequestBody Sede sede) {
         try {
