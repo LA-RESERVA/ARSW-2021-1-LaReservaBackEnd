@@ -68,8 +68,8 @@ public class CanchaController {
         }
     }
 
-    @GetMapping(value = "/listar")
-    public ResponseEntity<?> consultarCanchasPorSede() {
+    @GetMapping(value = "/sede")
+    public ResponseEntity<?> consultarCanchasPorSede(@RequestParam Integer id) {
         try {
             return new ResponseEntity<>(canchaServices.consultarCancha(), HttpStatus.ACCEPTED);
         } catch (LaReservaException ex) {
