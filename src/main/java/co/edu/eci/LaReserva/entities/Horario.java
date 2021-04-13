@@ -23,7 +23,7 @@ public class Horario implements Serializable {
     private String dia;
     
     @Column(name = "hora")
-    private LocalTime hora;
+    private String hora;
     
     @Column(name = "cancha")
     private int cancha;
@@ -31,7 +31,7 @@ public class Horario implements Serializable {
     @Column(name = "estado")
     private boolean estado;
 
-    public Horario(int id, String dia, LocalTime hora, int cancha, boolean estado) {
+    public Horario(int id, String dia, String hora, int cancha, boolean estado) {
         this.id = id;
         this.dia = dia;
         this.hora = hora;
@@ -59,11 +59,11 @@ public class Horario implements Serializable {
         this.dia = dia;
     }
 
-    public LocalTime getHora() {
+    public String getHora() {
         return hora;
     }
 
-    public void setHora(LocalTime hora) {
+    public void setHora(String hora) {
         this.hora = hora;
     }
 
