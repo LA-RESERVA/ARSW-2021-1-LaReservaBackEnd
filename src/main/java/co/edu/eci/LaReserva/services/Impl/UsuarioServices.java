@@ -51,7 +51,7 @@ public class UsuarioServices implements IUsuarioServices {
             throw new LaReservaException(ex.getMessage());
         }
     }
-    
+
     @Override
     public void actualizarContrasena(String username, String password) throws LaReservaException {
         try {

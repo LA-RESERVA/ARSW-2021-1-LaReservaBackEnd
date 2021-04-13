@@ -37,7 +37,7 @@ public class Sede implements Serializable {
     }
 
     public Sede() {
-    
+
     }
 
     public int getId() {

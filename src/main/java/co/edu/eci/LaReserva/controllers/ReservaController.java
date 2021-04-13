@@ -66,5 +66,4 @@ public class ReservaController {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.CONFLICT);
         }
     }
-
 }

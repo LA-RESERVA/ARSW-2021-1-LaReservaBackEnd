@@ -15,11 +15,11 @@ public class SedePersistence {
     public void agregarSede(Sede sede) throws LaReservaPersistenceException {
         sedeRepository.save(sede);
     }
-    
+
     public List<Sede> consultarSedes() {
         return sedeRepository.findAll();
     }
-    
+
     public void eliminarSede(Integer id) throws LaReservaPersistenceException {
         sedeRepository.deleteById(id);
     }

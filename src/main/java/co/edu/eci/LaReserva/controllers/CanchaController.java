@@ -43,7 +43,7 @@ public class CanchaController {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
         }
     }
-    
+
     @PostMapping(value = "/crear")
     public ResponseEntity<?> registrarCancha(@RequestBody Cancha cancha) {
         try {

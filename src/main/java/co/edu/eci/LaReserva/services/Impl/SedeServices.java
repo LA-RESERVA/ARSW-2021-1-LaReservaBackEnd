@@ -38,13 +38,12 @@ public class SedeServices implements ISedeServices {
         }
     }
 
-	@Override
-	public void actualizarSede(Sede sede) throws LaReservaException {
-		try {
-			sedePersistence.agregarSede(sede);
-		} catch (LaReservaPersistenceException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}   
+    @Override
+    public void actualizarSede(Sede sede) throws LaReservaException {
+        try {
+            sedePersistence.agregarSede(sede);
+        } catch (LaReservaPersistenceException ex) {
+            throw new LaReservaException(ex.getMessage());
+        }
+    }
 }

@@ -38,7 +38,7 @@ public class UsuarioPersistence {
             throw new LaReservaPersistenceException("El usuario no existe.");
         }
     }
-    
+
     public Usuario encontrarUsuario(String username) throws LaReservaPersistenceException {
         Usuario usuario = usuarioRepository.encontrarUsuarioPorUsername(username);
         if (usuario != null) {
@@ -47,9 +47,9 @@ public class UsuarioPersistence {
             throw new LaReservaPersistenceException("El usuario no existe.");
         }
     }
-    
+
     public void actualizarContrasena(String username, String password) throws LaReservaPersistenceException {
-        if(password.equals(encontrarUsuario(username).getContrasena())){
+        if (password.equals(encontrarUsuario(username).getContrasena())) {
             throw new LaReservaPersistenceException("La contraseña debe ser diferente.");
         }
         usuarioRepository.actualizarContrasena(password, username);

@@ -8,8 +8,8 @@ public interface ISedeServices {
     void crearSede(Sede sede) throws LaReservaException;
 
     List<Sede> consultarSedes() throws LaReservaException;
-    
+
     void eliminarSede(Integer id) throws LaReservaException;
-    
+
     void actualizarSede(Sede sede) throws LaReservaException;
 }

@@ -12,22 +12,20 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "horarios")
 public class Horario implements Serializable {
-    
 
-
-	@Id
+    @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-    
+
     @Column(name = "dia")
     private String dia;
-    
+
     @Column(name = "hora")
     private String hora;
-    
+
     @Column(name = "cancha")
     private int cancha;
-    
+
     @Column(name = "estado")
     private boolean estado;
 
@@ -40,7 +38,7 @@ public class Horario implements Serializable {
     }
 
     public Horario() {
-    
+
     }
 
     public int getId() {

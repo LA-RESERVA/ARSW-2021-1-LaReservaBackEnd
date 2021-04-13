@@ -11,20 +11,20 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "canchas")
 public class Cancha implements Serializable {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-    
+
     @Column(name = "sede")
     private int sede;
-    
+
     @Column(name = "tamano")
     private int tamano;
-    
+
     @Column(name = "precio")
     private int precio;
-    
+
     @Column(name = "titulo")
     private String titulo;
 
@@ -37,7 +37,7 @@ public class Cancha implements Serializable {
     }
 
     public Cancha() {
-        
+
     }
 
     public int getId() {

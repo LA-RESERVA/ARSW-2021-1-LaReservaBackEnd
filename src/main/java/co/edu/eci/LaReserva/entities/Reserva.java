@@ -11,14 +11,14 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "reservas")
 public class Reserva implements Serializable {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-    
+
     @Column(name = "usuario")
     private int usuario;
-    
+
     @Column(name = "horario")
     private int horario;
 
@@ -29,7 +29,7 @@ public class Reserva implements Serializable {
     }
 
     public Reserva() {
-    
+
     }
 
     public int getId() {
