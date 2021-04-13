@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-
 import co.edu.eci.LaReserva.entities.Reserva;
 import co.edu.eci.LaReserva.services.LaReservaException;
 import co.edu.eci.LaReserva.services.Impl.ReservaServices;
@@ -24,9 +23,10 @@ import co.edu.eci.LaReserva.services.Impl.ReservaServices;
 @RequestMapping(value = "/reservas")
 @CrossOrigin(origins = "*")
 public class ReservaController {
+
     @Autowired
     private ReservaServices reservaServices;
-    
+
     @GetMapping(value = "/listar")
     public ResponseEntity<?> consultarreservas() {
         try {
@@ -35,31 +35,32 @@ public class ReservaController {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
         }
     }
-    
+
     @PostMapping(value = "/crear")
     public ResponseEntity<?> registrarReservas(@RequestBody Reserva reserva) {
         try {
-        	reservaServices.crearReserva(reserva);
+            reservaServices.crearReserva(reserva);
             return new ResponseEntity<>("Reserva creada satisfactoriamente.", HttpStatus.CREATED);
         } catch (LaReservaException ex) {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.CONFLICT);
         }
     }
-    
+
     @DeleteMapping("/eliminar")
     public ResponseEntity<?> elimina(@RequestParam Integer id) {
         try {
-        	reservaServices.eliminarReserva(id);
+            reservaServices.eliminarReserva(id);
             return new ResponseEntity<>("Reserva eliminada satisfactoriamente.", HttpStatus.CREATED);
         } catch (LaReservaException ex) {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.CONFLICT);
         }
     }
+
     @PutMapping("actualizar/{id}")
-    public ResponseEntity<?> update(@PathVariable Integer id,@RequestBody @Validated Reserva reserva) {
-    	reserva.setId(id);
+    public ResponseEntity<?> update(@PathVariable Integer id, @RequestBody @Validated Reserva reserva) {
+        reserva.setId(id);
         try {
-        	reservaServices.actualizarReserva(reserva);
+            reservaServices.actualizarReserva(reserva);
             return new ResponseEntity<>("La reserva se actualizo", HttpStatus.CREATED);
         } catch (LaReservaException ex) {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.CONFLICT);

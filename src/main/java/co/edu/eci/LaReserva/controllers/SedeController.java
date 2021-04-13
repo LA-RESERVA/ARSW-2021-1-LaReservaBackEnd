@@ -18,15 +18,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-
 @RestController
 @RequestMapping(value = "/sedes")
 @CrossOrigin(origins = "*")
 public class SedeController {
-    
+
     @Autowired
     private SedeServices sedeServices;
-    
+
     @GetMapping(value = "/listar")
     public ResponseEntity<?> consultarSedes() {
         try {
@@ -35,7 +34,7 @@ public class SedeController {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
         }
     }
-    
+
     @PostMapping(value = "/crear")
     public ResponseEntity<?> registrarUsuario(@RequestBody Sede sede) {
         try {
@@ -45,7 +44,7 @@ public class SedeController {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.CONFLICT);
         }
     }
-    
+
     @DeleteMapping("/eliminar")
     public ResponseEntity<?> elimina(@RequestParam Integer id) {
         try {
@@ -55,11 +54,12 @@ public class SedeController {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.CONFLICT);
         }
     }
+
     @PutMapping("actualizar/{id}")
-    public ResponseEntity<?> update(@PathVariable Integer id,@RequestBody @Validated Sede sede) {
-    	sede.setId(id);
+    public ResponseEntity<?> update(@PathVariable Integer id, @RequestBody @Validated Sede sede) {
+        sede.setId(id);
         try {
-        	sedeServices.actualizarSede(sede);
+            sedeServices.actualizarSede(sede);
             return new ResponseEntity<>("Sede se actualizo", HttpStatus.CREATED);
         } catch (LaReservaException ex) {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.CONFLICT);
