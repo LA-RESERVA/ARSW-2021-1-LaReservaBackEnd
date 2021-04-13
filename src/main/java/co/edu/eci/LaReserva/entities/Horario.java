@@ -13,7 +13,9 @@ import javax.persistence.Table;
 @Table(name = "horarios")
 public class Horario implements Serializable {
     
-    @Id
+
+
+	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     
