@@ -71,7 +71,7 @@ public class CanchaController {
     @GetMapping(value = "/sede")
     public ResponseEntity<?> consultarCanchasPorSede(@RequestParam Integer id) {
         try {
-            return new ResponseEntity<>(canchaServices.consultarCancha(), HttpStatus.ACCEPTED);
+            return new ResponseEntity<>(canchaServices.consultarCanchasPorSede(id), HttpStatus.ACCEPTED);
         } catch (LaReservaException ex) {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
         }
