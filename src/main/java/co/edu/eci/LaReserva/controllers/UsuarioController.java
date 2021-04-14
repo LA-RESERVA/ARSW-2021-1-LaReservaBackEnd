@@ -69,7 +69,7 @@ public class UsuarioController {
         mensaje.setFrom("jfpazto@gmail.com");
         mensaje.setTo(email);
         mensaje.setSubject("Recuperacion Contraseña");
-        mensaje.setText("Estimado " + username + " para recuperar su contraseña vaya al siguiente enlace https://cherry-surprise-79251.herokuapp.com/recuperarContrase%C3%B1a.html");
+        mensaje.setText("Estimado " + username + " para recuperar su contraseña vaya al siguiente enlace https://cherry-surprise-79251.herokuapp.com/recuperarContrase%C3%B1a.html?username="+username);
         javaMailSender.send(mensaje);
         return username;
     }
