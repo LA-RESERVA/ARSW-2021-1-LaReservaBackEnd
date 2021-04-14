@@ -50,6 +50,7 @@ public class HorarioServices implements IHorarioService {
         }
     }
 	@Override
+	//Hola
 	public Horario consultaEstado(int cancha, String dia, String hora) throws LaReservaException {
         try {
             return horarioPersistence.consultaEstado(cancha, dia, hora);

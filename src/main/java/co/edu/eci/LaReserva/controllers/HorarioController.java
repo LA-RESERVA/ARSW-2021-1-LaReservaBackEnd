@@ -34,8 +34,8 @@ public class HorarioController {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
         }
     }
-    @GetMapping(value = "/estado/{cancha}/{fecha}/{hora}")
-    public ResponseEntity<?> consultarEstado(@PathVariable Integer cancha,@PathVariable String fecha,@PathVariable String hora) {
+    @GetMapping(value = "/estado")
+    public ResponseEntity<?> consultarEstado(@RequestParam("cancha") int cancha,@RequestParam("fecha") String fecha,@RequestParam("hora") String hora) {
         try {
             return new ResponseEntity<>(horarioServices.consultaEstado(cancha, fecha, hora), HttpStatus.ACCEPTED);
         } catch (LaReservaException ex) {
