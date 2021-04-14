@@ -23,4 +23,7 @@ public class HorarioPersistence {
     public void eliminarHorario(Integer id) throws LaReservaPersistenceException {
         horarioRepository.deleteById(id);
     }
+    public Horario consultaEstado(int cancha, String dia, String hora) throws LaReservaPersistenceException {
+        return horarioRepository.traerEstado(cancha, dia, hora);
+    }
 }

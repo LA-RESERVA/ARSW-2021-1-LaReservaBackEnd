@@ -13,4 +13,6 @@ public interface IHorarioService {
     void eliminarHorario(Integer id) throws LaReservaException;
 
     void actualizarHorario(Horario horario) throws LaReservaException;
+    
+    Horario consultaEstado(int cancha, String dia, String hora) throws LaReservaException;
 }
