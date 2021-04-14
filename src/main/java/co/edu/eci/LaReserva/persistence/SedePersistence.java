@@ -31,4 +31,12 @@ public class SedePersistence {
         }
         return sedeRepository.sedePorId(id);
     }
+    
+    public List<Sede> sedesPorUsuario(Integer idUsuario) throws LaReservaPersistenceException {
+        List<Sede> sedes = sedeRepository.sedesPorUsuario(idUsuario);
+        if (sedes.isEmpty()) {
+            throw new LaReservaPersistenceException("El usuario no tiene sedes.");
+        }
+        return sedes;
+    }
 }

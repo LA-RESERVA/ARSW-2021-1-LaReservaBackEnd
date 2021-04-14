@@ -55,4 +55,13 @@ public class SedeServices implements ISedeServices {
             throw new LaReservaException(ex.getMessage());
         }
     }
+
+    @Override
+    public List<Sede> consultarSedePorUsuario(Integer idUsuario) throws LaReservaException {
+        try {
+            return sedePersistence.sedesPorUsuario(idUsuario);
+        } catch (LaReservaPersistenceException ex) {
+            throw new LaReservaException(ex.getMessage());
+        }
+    }
 }

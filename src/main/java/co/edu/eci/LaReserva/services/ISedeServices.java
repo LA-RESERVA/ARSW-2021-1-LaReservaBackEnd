@@ -14,4 +14,6 @@ public interface ISedeServices {
     void actualizarSede(Sede sede) throws LaReservaException;
     
     Sede consultarSedePorId(Integer id) throws LaReservaException;
+    
+    List<Sede> consultarSedePorUsuario(Integer idUsuario) throws LaReservaException;
 }
