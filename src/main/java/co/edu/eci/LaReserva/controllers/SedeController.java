@@ -35,19 +35,19 @@ public class SedeController {
         }
     }
 
-    @GetMapping("/usuario")
+    @GetMapping
     public ResponseEntity<?> consultarSedePorId(@RequestParam Integer id) {
         try {
-            return new ResponseEntity<>(sedeServices.consultarSedePorUsuario(id), HttpStatus.ACCEPTED);
+            return new ResponseEntity<>(sedeServices.consultarSedePorId(id), HttpStatus.ACCEPTED);
         } catch (LaReservaException ex) {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
         }
     }
     
-    @GetMapping
-    public ResponseEntity<?> consultarSedePorUsuario(@RequestParam Integer idUsuario) {
+    @GetMapping("/usuario")
+    public ResponseEntity<?> consultarSedePorUsuario(@RequestParam Integer id) {
         try {
-            return new ResponseEntity<>(sedeServices.consultarSedePorUsuario(idUsuario), HttpStatus.ACCEPTED);
+            return new ResponseEntity<>(sedeServices.consultarSedePorUsuario(id), HttpStatus.ACCEPTED);
         } catch (LaReservaException ex) {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
         }
