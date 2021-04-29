@@ -1,4 +1,4 @@
-package co.edu.eci.LaReserva;
+package co.edu.eci.LaReserva.configs;
 
 import java.util.Properties;
 
