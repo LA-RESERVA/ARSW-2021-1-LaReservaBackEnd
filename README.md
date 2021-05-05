@@ -1,4 +1,4 @@
- <p align="center"> <img src="https://github.com/LA-RESERVA/ARSW-2021-1-LaReservaFront/blob/master/css/img/Logo.png"> </p>
+ <p align="center"> <img src="https://github.com/LA-RESERVA/ARSW-2021-1-LaReservaFront/blob/master/css/img/Logo.png" width="300" height="300"> </p>
 # ARSW-2021-1-LaReservaBackPost
 
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://cherry-surprise-79251.herokuapp.com/)
