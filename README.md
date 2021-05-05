@@ -2,6 +2,13 @@
 
 # ARSW-2021-1-LaReservaBackPost
 
+## **Desarrollado por:**
+
+- Federico Barrios.
+- Brayan Burgos.
+- Jose Gutierrez.
+- Johan Paez.
+
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://cherry-surprise-79251.herokuapp.com/)
 
 
