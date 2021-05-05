@@ -1,6 +1,6 @@
  <p align="center"> <img src="https://github.com/LA-RESERVA/ARSW-2021-1-LaReservaFront/blob/master/css/img/Logo.png" width="100" height="100"> </p>
 
-# ARSW-2021-1-LaReservaBackPost
+# La Reserva
 
 ## **Desarrollado por:**
 
