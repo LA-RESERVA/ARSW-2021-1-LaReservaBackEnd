@@ -1,12 +1,9 @@
 package co.edu.eci.LaReserva.services.Impl;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import co.edu.eci.LaReserva.entities.Reserva;
-
 import co.edu.eci.LaReserva.persistence.LaReservaPersistenceException;
 import co.edu.eci.LaReserva.persistence.ReservaPersintence;
 import co.edu.eci.LaReserva.services.IReservaServices;
@@ -21,15 +18,15 @@ public class ReservaServices implements IReservaServices {
     @Override
     public void crearReserva(Reserva reserva) throws LaReservaException {
         try {
+            reservaPersistence.reservaRepetida(reserva.getCancha(), reserva.getDia(), reserva.getHora());
             reservaPersistence.agregarReserva(reserva);
         } catch (LaReservaPersistenceException ex) {
             throw new LaReservaException(ex.getMessage());
         }
-
     }
 
     @Override
-    public List<Reserva> consultarReserva() throws LaReservaException {
+    public List<Reserva> consultarReservas() throws LaReservaException {
         return reservaPersistence.consultarReserva();
     }
 
@@ -49,6 +46,5 @@ public class ReservaServices implements IReservaServices {
         } catch (LaReservaPersistenceException ex) {
             throw new LaReservaException(ex.getMessage());
         }
-
     }
 }

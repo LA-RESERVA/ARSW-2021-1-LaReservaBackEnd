@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
 import co.edu.eci.LaReserva.entities.Reserva;
 import co.edu.eci.LaReserva.services.LaReservaException;
 import co.edu.eci.LaReserva.services.Impl.ReservaServices;
@@ -28,16 +27,16 @@ public class ReservaController {
     private ReservaServices reservaServices;
 
     @GetMapping(value = "/listar")
-    public ResponseEntity<?> consultarreservas() {
+    public ResponseEntity<?> consultarReservas() {
         try {
-            return new ResponseEntity<>(reservaServices.consultarReserva(), HttpStatus.ACCEPTED);
+            return new ResponseEntity<>(reservaServices.consultarReservas(), HttpStatus.ACCEPTED);
         } catch (LaReservaException ex) {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
         }
     }
 
     @PostMapping(value = "/crear")
-    public ResponseEntity<?> registrarReservas(@RequestBody Reserva reserva) {
+    public synchronized ResponseEntity<?> registrarReservas(@RequestBody Reserva reserva) {
         try {
             reservaServices.crearReserva(reserva);
             return new ResponseEntity<>("Reserva creada satisfactoriamente.", HttpStatus.CREATED);

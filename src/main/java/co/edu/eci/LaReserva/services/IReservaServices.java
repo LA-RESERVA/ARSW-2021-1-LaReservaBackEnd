@@ -8,7 +8,7 @@ public interface IReservaServices {
 
     void crearReserva(Reserva reserva) throws LaReservaException;
 
-    List<Reserva> consultarReserva() throws LaReservaException;
+    List<Reserva> consultarReservas() throws LaReservaException;
 
     void eliminarReserva(Integer id) throws LaReservaException;
 

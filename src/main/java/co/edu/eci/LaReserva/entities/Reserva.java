@@ -19,17 +19,25 @@ public class Reserva implements Serializable {
     @Column(name = "usuario")
     private int usuario;
 
-    @Column(name = "horario")
-    private int horario;
+    @Column(name = "cancha")
+    private int cancha;
 
-    public Reserva(int id, int usuario, int horario) {
+    @Column(name = "dia")
+    private String dia;
+
+    @Column(name = "hora")
+    private String hora;
+
+    public Reserva(int id, int usuario, int cancha, String dia, String hora) {
         this.id = id;
         this.usuario = usuario;
-        this.horario = horario;
+        this.cancha = cancha;
+        this.dia = dia;
+        this.hora = hora;
     }
-
+    
     public Reserva() {
-
+        
     }
 
     public int getId() {
@@ -39,25 +47,41 @@ public class Reserva implements Serializable {
     public void setId(int id) {
         this.id = id;
     }
-
+    
     public int getUsuario() {
         return usuario;
     }
-
+    
     public void setUsuario(int usuario) {
         this.usuario = usuario;
     }
 
-    public int getHorario() {
-        return horario;
+    public int getCancha() {
+        return cancha;
+    }
+    
+    public void setCancha(int cancha) {
+        this.cancha = cancha;
     }
 
-    public void setHorario(int horario) {
-        this.horario = horario;
+    public String getDia() {
+        return dia;
+    }
+    
+    public void setDia(String dia) {
+        this.dia = dia;
+    }
+
+    public String getHora() {
+        return hora;
+    }
+
+    public void setHora(String hora) {
+        this.hora = hora;
     }
 
     @Override
     public String toString() {
-        return "Reserva{" + "id=" + id + ", usuario=" + usuario + ", horario=" + horario + '}';
+        return "Reserva{" + "id=" + id + ", usuario=" + usuario + ", cancha=" + cancha + ", dia=" + dia + ", hora=" + hora + '}';
     }
 }

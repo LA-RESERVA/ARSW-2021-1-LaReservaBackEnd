@@ -23,4 +23,10 @@ public class ReservaPersintence {
     public void eliminarReserva(Integer id) throws LaReservaPersistenceException {
         reservaRepository.deleteById(id);
     }
+
+    public void reservaRepetida(int cancha, String dia, String hora) throws LaReservaPersistenceException {
+        if(reservaRepository.validarReserva(cancha, dia, hora) != null) {
+            throw new LaReservaPersistenceException("Error: ya está reservada la cancha.");
+        }
+    }
 }
