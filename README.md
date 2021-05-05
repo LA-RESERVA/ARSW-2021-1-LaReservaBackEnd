@@ -7,7 +7,7 @@
 - Federico Barrios.
 - Brayan Burgos.
 - Jose Gutierrez.
-- Johan Paez.
+- Jonathan Paez.
 
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://cherry-surprise-79251.herokuapp.com/)
 
