@@ -1,4 +1,4 @@
-package co.edu.eci.LaReserva.controllers;
+package co.edu.eci.lareserva.controllers;
 
 import java.util.HashMap;
 import java.util.Map;

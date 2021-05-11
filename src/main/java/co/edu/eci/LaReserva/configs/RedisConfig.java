@@ -1,4 +1,4 @@
-package co.edu.eci.LaReserva.configs;
+package co.edu.eci.lareserva.configs;
 
 import java.time.Duration;
 import org.springframework.context.annotation.Bean;

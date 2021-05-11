@@ -1,7 +1,7 @@
-package co.edu.eci.LaReserva.persistence;
+package co.edu.eci.lareserva.persistence;
 
-import co.edu.eci.LaReserva.entities.Usuario;
-import co.edu.eci.LaReserva.persistence.repository.IUsuarioRepository;
+import co.edu.eci.lareserva.entities.Usuario;
+import co.edu.eci.lareserva.persistence.repository.IUsuarioRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

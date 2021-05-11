@@ -1,7 +1,7 @@
-package co.edu.eci.LaReserva.persistence.cache;
+package co.edu.eci.lareserva.persistence.cache;
 
-import co.edu.eci.LaReserva.entities.Cancha;
-import co.edu.eci.LaReserva.entities.Sede;
+import co.edu.eci.lareserva.entities.Cancha;
+import co.edu.eci.lareserva.entities.Sede;
 import java.util.concurrent.TimeUnit;
 import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisTemplate;

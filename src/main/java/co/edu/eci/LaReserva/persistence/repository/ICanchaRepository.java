@@ -1,7 +1,7 @@
-package co.edu.eci.LaReserva.persistence.repository;
+package co.edu.eci.lareserva.persistence.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import co.edu.eci.LaReserva.entities.Cancha;
+import co.edu.eci.lareserva.entities.Cancha;
 import java.util.List;
 import org.springframework.data.jpa.repository.Query;
 

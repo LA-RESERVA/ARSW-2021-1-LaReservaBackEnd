@@ -1,4 +1,4 @@
-package co.edu.eci.LaReserva.controllers;
+package co.edu.eci.lareserva.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import co.edu.eci.LaReserva.entities.Reserva;
-import co.edu.eci.LaReserva.services.LaReservaException;
-import co.edu.eci.LaReserva.services.Impl.ReservaServices;
+import co.edu.eci.lareserva.entities.Reserva;
+import co.edu.eci.lareserva.services.LaReservaException;
+import co.edu.eci.lareserva.services.Impl.ReservaServices;
 
 @RestController
 @RequestMapping(value = "/reservas")

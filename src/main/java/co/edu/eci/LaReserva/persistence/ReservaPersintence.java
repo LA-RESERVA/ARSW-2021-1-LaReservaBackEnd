@@ -1,10 +1,10 @@
-package co.edu.eci.LaReserva.persistence;
+package co.edu.eci.lareserva.persistence;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import co.edu.eci.LaReserva.entities.Reserva;
-import co.edu.eci.LaReserva.persistence.repository.IReservaRepository;
+import co.edu.eci.lareserva.entities.Reserva;
+import co.edu.eci.lareserva.persistence.repository.IReservaRepository;
 
 @Repository
 public class ReservaPersintence {

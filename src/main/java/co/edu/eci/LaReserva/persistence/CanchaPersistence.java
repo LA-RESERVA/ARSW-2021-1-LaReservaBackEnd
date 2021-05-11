@@ -1,11 +1,11 @@
-package co.edu.eci.LaReserva.persistence;
+package co.edu.eci.lareserva.persistence;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import co.edu.eci.LaReserva.entities.Cancha;
-import co.edu.eci.LaReserva.persistence.cache.LaReservaCache;
-import co.edu.eci.LaReserva.persistence.repository.ICanchaRepository;
+import co.edu.eci.lareserva.entities.Cancha;
+import co.edu.eci.lareserva.persistence.cache.LaReservaCache;
+import co.edu.eci.lareserva.persistence.repository.ICanchaRepository;
 
 @Repository
 public class CanchaPersistence {

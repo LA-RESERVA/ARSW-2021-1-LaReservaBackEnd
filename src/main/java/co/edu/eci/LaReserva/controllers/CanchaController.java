@@ -1,4 +1,4 @@
-package co.edu.eci.LaReserva.controllers;
+package co.edu.eci.lareserva.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import co.edu.eci.LaReserva.entities.Cancha;
-import co.edu.eci.LaReserva.services.LaReservaException;
-import co.edu.eci.LaReserva.services.Impl.CanchaServices;
+import co.edu.eci.lareserva.entities.Cancha;
+import co.edu.eci.lareserva.services.LaReservaException;
+import co.edu.eci.lareserva.services.Impl.CanchaServices;
 
 @RestController
 @RequestMapping(value = "/canchas")

@@ -1,4 +1,4 @@
-package co.edu.eci.LaReserva.persistence;
+package co.edu.eci.lareserva.persistence;
 
 public class LaReservaPersistenceException extends Exception {
 

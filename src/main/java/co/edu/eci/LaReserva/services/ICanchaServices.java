@@ -1,8 +1,8 @@
-package co.edu.eci.LaReserva.services;
+package co.edu.eci.lareserva.services;
 
 import java.util.List;
 
-import co.edu.eci.LaReserva.entities.Cancha;
+import co.edu.eci.lareserva.entities.Cancha;
 
 public interface ICanchaServices {
 

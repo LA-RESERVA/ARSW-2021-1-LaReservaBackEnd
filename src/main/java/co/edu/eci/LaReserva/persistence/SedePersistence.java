@@ -1,8 +1,8 @@
-package co.edu.eci.LaReserva.persistence;
+package co.edu.eci.lareserva.persistence;
 
-import co.edu.eci.LaReserva.entities.Sede;
-import co.edu.eci.LaReserva.persistence.cache.LaReservaCache;
-import co.edu.eci.LaReserva.persistence.repository.ISedeRepository;
+import co.edu.eci.lareserva.entities.Sede;
+import co.edu.eci.lareserva.persistence.cache.LaReservaCache;
+import co.edu.eci.lareserva.persistence.repository.ISedeRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

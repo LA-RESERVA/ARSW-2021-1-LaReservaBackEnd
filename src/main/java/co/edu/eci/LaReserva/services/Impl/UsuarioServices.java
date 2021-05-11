@@ -1,10 +1,10 @@
-package co.edu.eci.LaReserva.services.Impl;
+package co.edu.eci.lareserva.services.Impl;
 
-import co.edu.eci.LaReserva.entities.Usuario;
-import co.edu.eci.LaReserva.persistence.LaReservaPersistenceException;
-import co.edu.eci.LaReserva.persistence.UsuarioPersistence;
-import co.edu.eci.LaReserva.services.IUsuarioServices;
-import co.edu.eci.LaReserva.services.LaReservaException;
+import co.edu.eci.lareserva.entities.Usuario;
+import co.edu.eci.lareserva.persistence.LaReservaPersistenceException;
+import co.edu.eci.lareserva.persistence.UsuarioPersistence;
+import co.edu.eci.lareserva.services.IUsuarioServices;
+import co.edu.eci.lareserva.services.LaReservaException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
