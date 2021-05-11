@@ -9,6 +9,7 @@
 - Jose Gutierrez.
 - Jonathan Paez.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/63a1c85aed0f497780f64fba82e5d73d)](https://app.codacy.com/gh/LA-RESERVA/ARSW-2021-1-LaReservaBackPost?utm_source=github.com&utm_medium=referral&utm_content=LA-RESERVA/ARSW-2021-1-LaReservaBackPost&utm_campaign=Badge_Grade_Settings)
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://cherry-surprise-79251.herokuapp.com/)
 
 ## CircleCi
