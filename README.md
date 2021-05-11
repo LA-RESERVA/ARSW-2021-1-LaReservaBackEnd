@@ -37,7 +37,7 @@ Escenario 2: Evitar la vulnerabilidad Open Redirect.
 -   Ambiente: Aplicación bajo condiciones normales desplegada en Azure.
 -   Resultado esperado: Redireccionamiento al inicio de sesión de la aplicación .
 -   Medición: No se permite el consumo de recursos de la aplicación sin previa autenticación.
--   
+
 ### Usabilidad
 
 Escenario 1: Publicar canchas.
