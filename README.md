@@ -11,6 +11,8 @@
 
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://cherry-surprise-79251.herokuapp.com/)
 
+## CircleCi
+[![La Reserva](https://circleci.com/gh/LA-RESERVA/ARSW-2021-1-LaReservaBackPost.svg?style=svg)](https://app.circleci.com/gh/LA-RESERVA/ARSW-2021-1-LaReservaBackPost)
 
 ## **Atributos no funcionales**
 
