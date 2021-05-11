@@ -2,27 +2,28 @@
 
 # La Reserva
 
-## **Desarrollado por:**
+## Desarrollado por
 
-- Federico Barrios.
-- Brayan Burgos.
-- Jose Gutierrez.
-- Jonathan Paez.
+- Federico Barrios Meneses
+- Brayan Steven Burgos Delgado
+- Andrés Jose Gutiérrez Marín
+- Jonathan Fabian Páez Torres
 
+### Heroku
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://cherry-surprise-79251.herokuapp.com/)
 
-## CircleCi
+### CircleCi
 [![La Reserva](https://circleci.com/gh/LA-RESERVA/ARSW-2021-1-LaReservaBackPost.svg?style=svg)](https://app.circleci.com/gh/LA-RESERVA/ARSW-2021-1-LaReservaBackPost)
 
-## Codacy
+### Codacy
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1aae275dee444cefbeddd2dcc12b84de)](https://www.codacy.com/gh/LA-RESERVA/ARSW-2021-1-LaReservaBackPost/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LA-RESERVA/ARSW-2021-1-LaReservaBackPost&amp;utm_campaign=Badge_Grade)
 
-## **Atributos no funcionales**
+## Atributos no funcionales
 
 Estos atributos son los que delimitarán las características generales, restricciones y limitaciones de nuestra aplicación.
 
-### Seguridad:
+### Seguridad
 
 Escenario 1: Cifrar contraseñas.
 
@@ -44,7 +45,7 @@ Escenario 2: Evitar la vulnerabilidad Open Redirect.
 - Medición: No se permite el consumo de recursos de la aplicación sin previa autenticación.
 
 
-### Usabilidad:
+### Usabilidad
 
 Escenario 1: Publicar canchas.
 
@@ -64,7 +65,7 @@ Escenario 2: Reservar Canchas.
 - Resultado esperado: Aparece una notificación en pantalla confirmando la reserva, ademas de un correo electronico de confirmación.
 - Medición: El cliente puede hacer una reserva con los items que seleccione y en caso de no estar disponible, que se le notifique.
 
-### Escalabilidad:
+### Escalabilidad
 
 Escenario 1: Escalabilidad vertical.
 
@@ -86,7 +87,7 @@ Escenario 2: Escalabilidad horizontal.
 - Medición: El tiempo de respuesta de cada usuario no aumenta, sigue siendo aproximadamente de un segundo.
 
 
-### Rendimiento:
+### Rendimiento
 
 Escenario 1: Reservar concurrentemente.
 
