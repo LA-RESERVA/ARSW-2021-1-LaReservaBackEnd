@@ -14,6 +14,10 @@
 ## CircleCi
 [![La Reserva](https://circleci.com/gh/LA-RESERVA/ARSW-2021-1-LaReservaBackPost.svg?style=svg)](https://app.circleci.com/gh/LA-RESERVA/ARSW-2021-1-LaReservaBackPost)
 
+## Codacy
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1aae275dee444cefbeddd2dcc12b84de)](https://www.codacy.com/gh/LA-RESERVA/ARSW-2021-1-LaReservaBackPost/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LA-RESERVA/ARSW-2021-1-LaReservaBackPost&amp;utm_campaign=Badge_Grade)
+
 ## **Atributos no funcionales**
 
 Estos atributos son los que delimitarán las características generales, restricciones y limitaciones de nuestra aplicación.
