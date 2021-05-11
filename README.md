@@ -2,10 +2,10 @@
 
 # La Reserva
 ## Desarrollado por
-- Federico Barrios Meneses
-- Brayan Steven Burgos Delgado
-- Andrés Jose Gutiérrez Marín
-- Jonathan Fabian Páez Torres
+-   Federico Barrios Meneses
+-   Brayan Steven Burgos Delgado
+-   Andrés Jose Gutiérrez Marín
+-   Jonathan Fabian Páez Torres
 ### Heroku
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://cherry-surprise-79251.herokuapp.com/)
 
