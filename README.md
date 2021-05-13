@@ -30,14 +30,6 @@ Escenario 1: Cifrar contraseñas.
 -   Resultado esperado: Las contraseñas deben estar cifradas.
 -   Medición: Las contraseñas del usuario y propietarios se cifran con Sha256.
 
-Escenario 2: Evitar la vulnerabilidad Open Redirect.
--   Fuente: Usuario final.
--   Objetivo: Dirigirse a cualquier link propio de la aplicación.
--   Infraestructura: Frontend.
--   Ambiente: Aplicación bajo condiciones normales desplegada en Azure.
--   Resultado esperado: Redireccionamiento al inicio de sesión de la aplicación .
--   Medición: No se permite el consumo de recursos de la aplicación sin previa autenticación.
-
 ### Usabilidad
 
 Escenario 1: Publicar canchas.
