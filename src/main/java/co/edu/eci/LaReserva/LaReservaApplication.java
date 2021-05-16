@@ -1,4 +1,4 @@
-package co.edu.eci.lareserva;
+package co.edu.eci.LaReserva;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

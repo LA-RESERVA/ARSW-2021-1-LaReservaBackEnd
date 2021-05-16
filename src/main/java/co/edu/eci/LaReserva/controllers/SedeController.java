@@ -1,8 +1,8 @@
-package co.edu.eci.lareserva.controllers;
+package co.edu.eci.LaReserva.controllers;
 
-import co.edu.eci.lareserva.entities.Sede;
-import co.edu.eci.lareserva.services.Impl.SedeServices;
-import co.edu.eci.lareserva.services.LaReservaException;
+import co.edu.eci.LaReserva.entities.Sede;
+import co.edu.eci.LaReserva.services.Impl.SedeServices;
+import co.edu.eci.LaReserva.services.LaReservaException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,15 +1,15 @@
-package co.edu.eci.lareserva.services.Impl;
+package co.edu.eci.LaReserva.services.Impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import co.edu.eci.lareserva.entities.Cancha;
-import co.edu.eci.lareserva.persistence.CanchaPersistence;
-import co.edu.eci.lareserva.persistence.LaReservaPersistenceException;
-import co.edu.eci.lareserva.services.ICanchaServices;
-import co.edu.eci.lareserva.services.LaReservaException;
+import co.edu.eci.LaReserva.entities.Cancha;
+import co.edu.eci.LaReserva.persistence.CanchaPersistence;
+import co.edu.eci.LaReserva.persistence.LaReservaPersistenceException;
+import co.edu.eci.LaReserva.services.ICanchaServices;
+import co.edu.eci.LaReserva.services.LaReservaException;
 
 @Service
 public class CanchaServices implements ICanchaServices {

@@ -1,4 +1,4 @@
-package co.edu.eci.lareserva.configs;
+package co.edu.eci.LaReserva.configs;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;

@@ -1,6 +1,6 @@
-package co.edu.eci.lareserva.services;
+package co.edu.eci.LaReserva.services;
 
-import co.edu.eci.lareserva.entities.Usuario;
+import co.edu.eci.LaReserva.entities.Usuario;
 import java.util.List;
 
 public interface IUsuarioServices {

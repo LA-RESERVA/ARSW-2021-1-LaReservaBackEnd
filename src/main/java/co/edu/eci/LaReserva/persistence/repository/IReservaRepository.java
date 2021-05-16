@@ -1,8 +1,8 @@
-package co.edu.eci.lareserva.persistence.repository;
+package co.edu.eci.LaReserva.persistence.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import co.edu.eci.lareserva.entities.Reserva;
+import co.edu.eci.LaReserva.entities.Reserva;
 import org.springframework.data.jpa.repository.Query;
 
 @Repository

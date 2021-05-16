@@ -1,4 +1,4 @@
-package co.edu.eci.lareserva.entities;
+package co.edu.eci.LaReserva.entities;
 
 import java.io.Serializable;
 import javax.persistence.Column;

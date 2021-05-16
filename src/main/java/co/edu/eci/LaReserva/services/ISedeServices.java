@@ -1,6 +1,6 @@
-package co.edu.eci.lareserva.services;
+package co.edu.eci.LaReserva.services;
 
-import co.edu.eci.lareserva.entities.Sede;
+import co.edu.eci.LaReserva.entities.Sede;
 import java.util.List;
 
 public interface ISedeServices {

@@ -1,8 +1,8 @@
-package co.edu.eci.lareserva.services;
+package co.edu.eci.LaReserva.services;
 
 import java.util.List;
 
-import co.edu.eci.lareserva.entities.Reserva;
+import co.edu.eci.LaReserva.entities.Reserva;
 
 public interface IReservaServices {
 

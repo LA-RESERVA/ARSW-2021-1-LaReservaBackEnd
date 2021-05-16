@@ -1,4 +1,4 @@
-package co.edu.eci.lareserva.services;
+package co.edu.eci.LaReserva.services;
 
 public class LaReservaException extends Exception {
 
