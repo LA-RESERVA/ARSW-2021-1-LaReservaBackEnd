@@ -88,16 +88,20 @@ Escenario 2: Conexión a socket cuando se ve una publicación.
 
 Escenario 1: Indisponibilidad máxima.
 -   Fuente: Usuario final.
--   Objetivo: Escalar verticalmente el plan de la App Service al que pertenece.
--   Infraestructura: Microsoft Azure, Frontend.
+-   Objetivo: Verificar ante un ataque DOS la disponibilidad del sistema.
+-   Infraestructura: Frontend, Backend.
 -   Ambiente: Aplicación bajo peticiones automatizadas.
 -   Resultado esperado: Se carga correctamente la aplicación.
--   Medición: La aplicación está disponible nuevamente en máximo 3 minutos.
+-   Medición: La aplicación está disponible y carga correctamente.
+
+https://www.youtube.com/watch?v=CIiBFYCsFaI
 
 Escenario 2: Ingresar correctamente a la página bajo estrés.
 -   Fuente: Usuario final.
--   Objetivo: Ingresar a la aplicación a ver las publicaciones disponibles como usuario.
+-   Objetivo: Ingresar a la aplicación para poder obsrvar su funcionamiento.
 -   Infraestructura: Frontend, Backend, Base de datos.
 -   Ambiente: Aplicación bajo condiciones de estrés.
 -   Resultado esperado: La aplicación funciona con normalidad.
 -   Medición: Las canchas y su informacion correspondiente siguen cargándose en un promedio de 1 segundo.
+
+https://www.youtube.com/watch?v=8xam_58aX6U
