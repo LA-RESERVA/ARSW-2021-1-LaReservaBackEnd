@@ -30,6 +30,8 @@ Escenario 1: Cifrar contraseñas.
 -   Resultado esperado: Las contraseñas deben estar cifradas.
 -   Medición: Las contraseñas del usuario y propietarios se cifran con Sha256.
 
+https://youtu.be/wnURyXOhss4
+
 ### Usabilidad
 
 Escenario 1: Publicar sedes.
