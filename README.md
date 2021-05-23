@@ -32,13 +32,15 @@ Escenario 1: Cifrar contraseñas.
 
 ### Usabilidad
 
-Escenario 1: Publicar canchas.
+Escenario 1: Publicar sedes.
 -   Fuente: Usuario final.
--   Objetivo: Publicar una cancha en la aplicación.
+-   Objetivo: Publicar una sede en la aplicación.
 -   Infraestructura: Frontend, Backend, Base de datos.
 -   Ambiente: Aplicación bajo condiciones normales.
 -   Resultado esperado: La publicación se realiza y se puede visualizar de manera exitosa.
--   Medición: El propietario es capáz de publiar una cancha desde la página principal de manera exitosa.
+-   Medición: El propietario es capáz de publiar una sede desde la página principal de manera exitosa.
+
+https://www.youtube.com/watch?v=0nfbvoe5jHI
 
 Escenario 2: Reservar Canchas.
 -   Fuente: Usuario final.
@@ -47,6 +49,8 @@ Escenario 2: Reservar Canchas.
 -   Ambiente: Aplicación bajo condiciones normales.
 -   Resultado esperado: Aparece una notificación en pantalla confirmando la reserva, ademas de un correo electronico de confirmación.
 -   Medición: El cliente puede hacer una reserva con los items que seleccione y en caso de no estar disponible, que se le notifique.
+
+https://www.youtube.com/watch?v=vKAgwXdbHBw
 
 ### Escalabilidad
 
