@@ -21,11 +21,37 @@
 
 ## Descripción
 
+### Diagramas de casos de uso
+
+Se realizó un Diagrama de Casos de Uso con las funcionalidades más destacadas del funcionamiento previsto:
+
+#### Propietario
+
+![](img/casosdeusopropietario.png)
+
+-   COMO propietario QUIERO ofertar e inscribir mis canchas en el sitio PARA PODER tener más visibilidad de mi producto y aumentar las ganancias de mi empresa.
+-   COMO propietario QUIERO eliminar mis canchas del sitio PARA PODER tener mi catálogo actualizado y que la información tenga credibilidad.
+-   COMO Propietario QUIERO ver el numero de personas viendo actualmente una cancha PARA PODER saber o conocer las preferencias de las personas.
+
+#### Cliente
+
+![](img/casosdeusocliente.png)
+
+-   COMO usuario QUIERO consultar las canchas disponibles PARA PODER tomar una desición de alquilar una cancha en el sitio.
+-   COMO usuario QUIERO realizar una reserva PARA PODER apartar la cancha que quiero.
+-   COMO usuario QUIERO Consultar mis reservas PARA PODER verificar el estado de mis reservas y que se hayan realizado exitosamente.
+
 ### Modelo entidad relación de la base de datos
+
+![](img/entidadrelacion.png)
 
 ### Diagrama de componentes
 
+![](img/componentes.png)
+
 ### Diagrama de despliegue
+
+![](img/despliegue.png)
 
 ## Atributos no funcionales
 Estos atributos son los que delimitarán las características generales, restricciones y limitaciones de nuestra aplicación.
