@@ -5,7 +5,7 @@
 ## Desarrollado por
 -   Federico Barrios Meneses
 -   Brayan Steven Burgos Delgado
--   Andrés Jose Gutiérrez Marín
+-   Andrés Jose Gutiérrez Marín	
 -   Jonathan Fabian Páez Torres
 
 ### Heroku
@@ -17,9 +17,27 @@
 ### Codacy
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1aae275dee444cefbeddd2dcc12b84de)](https://www.codacy.com/gh/LA-RESERVA/ARSW-2021-1-LaReservaBackPost/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LA-RESERVA/ARSW-2021-1-LaReservaBackPost&amp;utm_campaign=Badge_Grade)
 
-## Resumen
+## Resumen  
+Es una aplicación que permite a los usuarios alquilar canchas de fútbol por fecha y hora en tiempo real, así como se puede usar la aplicación para alquilar
+canchas de fútbol, también se puede usar para ofrecer las canchas de fútbol. De igual manera en la aplicación hay otros serivicios adicionales que no tienen
+relevancia en la funcionalidad principal del sistema, como el servicio de contraseñas olvidadas, tiempo real, entre otros.
 
-## Descripción
+## Descripción  
+La idea de esta aplicación nace de la experiencia propia con los sitios que prestan este tipo de servicios como lo son la renta de canchas de fútbol, normalmente estos 
+lugares que ofrecen sus canchas de fútbol lo hacen por medio de redes sociales, como facebook, whatsapp, instagram, entre otros, por lo cual en ocasiones se pueden cometer
+errores con las reservas de los usuarios que contactan para alquilar este tipo de servicios, por otro lado, hace más difícil al usuario interesado en alquilar una cancha de
+fútbol encontrar la cancha que considere apropiada por precio y calidad, esto implica que las personas deben conocer el lugar y la página donde pueden realizar sus reservas.
+
+Como equipo proponemos esta aplicación con el fin de facilitar esa búsqueda del servicio de estos usuarios y evitar los errores que se pueden cometer por realizar este tipo de
+reservas por medio de redes sociales, además se propone una interfaz sencilla fácil de usar y con toda la información necesaria para los usuarios que hagan uso de esta. Es un hecho
+que al facilitar la consulta de estos servicios en una sola aplicación implica que los usuarios no tienen que conocer necesariamente los lugares para saber si es lo que están buscando
+los usuarios que ofrezcan estos servicios en la aplicación propuesta tienen una gran ventaja y es que están vendiendo en un gran mercado virtual o marketplace, lo cual asegura que 
+una gran cantidad de usuarios que hagan uso de esta aplicación van a poder conocer sus ofertas y de esta manera ganar popularidad y llegar a sus clientes de una manera mucho más
+sencilla.
+
+Además de ser una gran idea para mejorar las ventas de estos negocios y facilitar las consultas a los usuarios que consumen estos servicios, es una aplicación segura, que se preocupa
+por conservar la confidencialidad, integridad y disponibilidad de los datos que transitan en la aplicación, obteniendo de esta manera la confianza en todos los usuarios que quieran
+hacer uso de la aplicación.
 
 ### Diagramas de casos de uso
 
