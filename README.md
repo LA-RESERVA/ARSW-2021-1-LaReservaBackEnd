@@ -159,6 +159,8 @@ Escenario 2: Conexión a socket cuando se ve una publicación.
 -   Resultado esperado: Todos los cliente reciben información de cuantas personas estan viendo la misma publicación al mismo tiempo.
 -   Medición: Observar el numero de personas que actualmente se encuentran en esa cancha. 
 
+https://www.youtube.com/watch?v=PozdyH--Czs
+
 Escenario 3: Revisar las metricas que brinda Performance Analizer
 -   Fuente: Usuario final.
 -   Objetivo: Conocer las metricas de Performance de la aplicacion.
