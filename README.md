@@ -182,7 +182,7 @@ Escenario 1: Indisponibilidad máxima.
 
 https://www.youtube.com/watch?v=CIiBFYCsFaI
 
-Escenario 2: Ingresar correctamente a la página bajo estrés.
+Escenario 2: Ingresar correctamente a la página bajo estrés
 -   Fuente: Usuario final.
 -   Objetivo: Ingresar a la aplicación para poder obsrvar su funcionamiento.
 -   Infraestructura: Frontend, Backend, Base de datos.
