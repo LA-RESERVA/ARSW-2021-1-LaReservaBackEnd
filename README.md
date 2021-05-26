@@ -86,6 +86,17 @@ Escenario 1: Cifrar contraseñas.
 
 https://youtu.be/wnURyXOhss4
 
+
+Escenario 2: Proteger los endPoints.
+-   Fuente: Usuario final.
+-   Objetivo: Proteger los endPoints para evitar que informacion vulnerable caia en manos equivocadas.
+-   Infraestructura: Frontend, Backend, Base de datos.
+-   Ambiente: Aplicación bajo condiciones normales.
+-   Resultado esperado: Los datos de la App no podran ser obtenidos sin logearse previamente.
+-   Medición: Las contraseñas del usuario y propietarios estan protegidas.
+
+https://youtu.be/uEI7wSFxbuI
+
 ### Usabilidad
 
 Escenario 1: Publicar sedes.
@@ -118,6 +129,8 @@ Escenario 1: Escalabilidad vertical.
 -   Resultado esperado: El dyno escala verticalmente según la sobrecarga de usuarios.
 -   Medición: El tiempo de respuesta de cada usuario no aumenta, sigue siendo aproximadamente de un segundo.
 
+https://youtu.be/pEyiTNbr8fI
+
 Escenario 2: Escalabilidad horizontal.
 -   Fuente: Usuarios finales.
 -   Objetivo: Sobrecargar la cantidad de usuarios finales.
@@ -125,6 +138,8 @@ Escenario 2: Escalabilidad horizontal.
 -   Ambiente: Aplicación bajo estrés.
 -   Resultado esperado: Se escala horizontalmente según la sobrecarga de usuarios implementando otros dynos.
 -   Medición: El tiempo de respuesta de cada usuario no aumenta, sigue siendo aproximadamente de un segundo.
+
+https://youtu.be/c1E8wKG6v6M
 
 ### Rendimiento
 
@@ -143,6 +158,17 @@ Escenario 2: Conexión a socket cuando se ve una publicación.
 -   Ambiente: Aplicación bajo condiciones normales.
 -   Resultado esperado: Todos los cliente reciben información de cuantas personas estan viendo la misma publicación al mismo tiempo.
 -   Medición: Observar el numero de personas que actualmente se encuentran en esa cancha. 
+
+Escenario 3: Revisar las metricas que brinda Performance Analizer
+-   Fuente: Usuario final.
+-   Objetivo: Conocer las metricas de Performance de la aplicacion.
+-   Infraestructura: Frontend, Backend, Base de datos.
+-   Ambiente: Aplicación bajo condiciones normales.
+-   Resultado esperado: Obtener informacion para poder observar problemas y mejorarlos en un futuro.
+-   Medición: Utilizando el plugin que nos brinda google chrome, se observara los datos que brinda. 
+
+https://youtu.be/35pouz13Ggc
+
 
 ### Disponibilidad
 
